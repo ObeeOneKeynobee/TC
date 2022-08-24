@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 55px;
+}
+.text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+}
+.header {
+    height: 100vh;
+  background: linear-gradient(to right, rgb(255, 255, 255) 65%, #bdccff 35%);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 34px;
+}
+.header__nav-items {
+  display: flex;
+}
+.header__nav-item {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+
+  margin-right: 46px;
+}
+.header__nav-item:hover {
+  border-bottom: 1px solid #000000;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 184px;
+}
+.header__content-text {
+  max-width: 500px;
+}
+.header__text-subtitle {
+  margin: 40px 0 24px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #ff9900;
+}
+.header__text-title {
+  margin-bottom: 23px;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 73px;
+}
+.header__content-socials {
+  display: flex;
+  align-items: center;
+}
+.header__content-socials img {
+  margin: 24px 0 24px 24px;
+}
+.header__content-search {
+    position: relative;
+    border: 0.1px solid #BDCCFF;
+}
+.header__content-search input, .header__content-search button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.header__content-search input {
+  width: 100%;
+  height: 42px;
+  background: #bdccff00;
+  padding-left: 15px;
+}
+.header__content-search button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #BDCCFF;
+  cursor: pointer;
+}
+.header__content-search button:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header__content-image img {
+  border-radius: 10%;
+}
+
+.header__partners-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 50px;
+}
+.header__partners-text {
+  margin-top: 70px;
+  margin-bottom: 15px;
+
+}
+
+.header__partners-items li {
+  margin: 20px 8px 20px;
+}
